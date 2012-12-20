@@ -14,7 +14,7 @@ stylus:
 	stylus stylus/*.styl -o stylesheets/
 
 coffee:
-	coffee -o javascripts/ -c coffee/*.coffee
+	coffee --bare -o javascripts/ -c coffee/*.coffee
 
 clean:
 	-for file in pages/*.jade; do f=$${file#*/}; rm $${f%.*}.php; done
