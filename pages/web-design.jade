@@ -7,9 +7,9 @@ mixin site(thumb, href, title, text)
 			h2 #{title}
 			span !{text}
 
-<?php include("header.php"); ?> 
+include includes/header.php
 <?php include("php/meta.php"); meta("Web Design"); ?> 	
-<?php include("nav.php"); ?>
+include includes/nav.php
 	
 br
 
@@ -27,5 +27,5 @@ hr
 mixin site("http://placehold.it/800x600", "#", "Site3", site3Text)
 
 
-<?php include("footer.php"); ?>
-<?php include("tail.php"); ?>
+include includes/footer.php
+include includes/tail.php
