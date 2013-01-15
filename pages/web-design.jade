@@ -8,7 +8,8 @@ mixin site(thumb, href, title, text)
 			span !{text}
 
 include includes/header.php
-<?php include("php/meta.php"); meta("Web Design"); ?> 	
+include mixins/meta-tags
+mixin meta-tags("Web Design")
 include includes/nav.php
 	
 br

@@ -19,7 +19,8 @@
 
 	<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Kelly+Slab' rel='stylesheet' type='text/css'><?php include("php/meta.php"); meta("Photography"); ?> 	<nav class="top-bar fixed">
+	<link href='http://fonts.googleapis.com/css?family=Kelly+Slab' rel='stylesheet' type='text/css'>
+<title>Photography</title><nav class="top-bar fixed">
     <ul>
       <li class="name"><h1><a href="<?php echo $basedir;?>">a<span style="position: relative;top: 8px;">x</span><span style="position: relative;top: 4px;">y</span>z . coding & imaging</a></h1></li>
       <li class="toggle-topbar"><a href="#"></a></li>
