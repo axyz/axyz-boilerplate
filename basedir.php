@@ -1,1 +1,1 @@
-<?php $basedir = "/axyz-boilerplate/"; ?>
+<?php $basedir = "/www/axyz-boilerplate/"; ?>
